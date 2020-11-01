@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hit.dao.impl.UserDaoImpl</OriginalElement>
+  <nodes>
+    <node x="770.0" y="465.0">com.hit.service.UserService</node>
+    <node x="0.0" y="834.0">com.hit.test.UserDaoTest</node>
+    <node x="349.0" y="498.0">com.hit.dao.UserDao</node>
+    <node x="420.0" y="1052.0">com.hit.web.RegistServlet</node>
+    <node x="0.0" y="465.0">com.hit.dao.impl.BaseDao</node>
+    <node x="0.0" y="1052.0">com.hit.web.LoginServlet</node>
+    <node x="770.0" y="619.0">com.hit.service.impl.UserServiceImpl</node>
+    <node x="162.75" y="685.0">com.hit.dao.impl.UserDaoImpl</node>
+    <node x="350.0" y="834.0">com.hit.utils.JdbcUtils</node>
+    <node x="840.0" y="1052.0">com.hit.test.JdbcUtilsTest</node>
+    <node x="-295.9999999999999" y="469.9999999999999">com.hit.pojo.User</node>
+    <node x="614.0" y="834.0">com.hit.test.UserServiceTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hit.dao.impl.UserDaoImpl" target="com.hit.dao.UserDao">
+      <point x="94.0" y="-52.0" />
+      <point x="444.75" y="660.0" />
+      <point x="537.0" y="660.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.hit.service.impl.UserServiceImpl" target="com.hit.service.UserService">
+      <point x="0.0" y="-73.5" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.hit.dao.impl.UserDaoImpl" target="com.hit.dao.impl.BaseDao">
+      <point x="-94.0" y="-52.0" />
+      <point x="256.75" y="660.0" />
+      <point x="164.5" y="660.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="371.43650793650784" y="822.75" />
+  <SelectedNodes>
+    <node>com.hit.pojo.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

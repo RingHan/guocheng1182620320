@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: mysql-connector-java-5.1.7-bin.jar druid-1.1.9.jar junit-4.1
+ 2.jar hamcrest-core-1.3.jar commons-dbutils-1.3.jar
+

@@ -1,0 +1,23 @@
+body{
+    background-image:url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    font-family:微软雅黑;
+    font-size: 35px;
+
+}
+#show input{
+    width:511px;
+    height:60px;
+    font-size:30px;}
+#cuttom input{
+    width: 100px;
+    height: 70px;
+    font-size: 28px;
+}
+#cuttom input:hover{
+    background: paleturquoise;
+}
